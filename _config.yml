@@ -17,8 +17,8 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html", title: "Home"}
-  - {file: "notes.html", title: "Notes"}
+  - {file: "index.md", title: "Home"}
+  - {file: "notes.html", title: "Posts"}
   # - {file: "README.md", title: "About"}
   - {url: "https://csgol.github.io/", title: "Portfolio"}
 
