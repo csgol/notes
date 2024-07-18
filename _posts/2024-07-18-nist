@@ -1,0 +1,173 @@
+---
+title: "NIST"
+layout: post
+categories:
+ - cybersecurity
+ - tech
+---
+
+#### NIST (National Institute of Standards & Technology)
+- NIST is a non-regulatory agency and does not have the authority to enforce regulations or laws. 
+- Provides guidance, recommendations, and best practices in cybersecurity.
+
+----------------------------------
+#### NIST & Cybersecurity Frameworks
+- NIST Cybersecurity Framework
+- NIST 800-37 Risk Management Framework
+- NIST 800-53 Security and Privacy Controls
+- NIST 800-61 Computer Security Incident Handling Guide 
+
+---------------------------
+#### NIST 800-37 Risk Management 
+- Provides a framework for the risk management of information systems 
+- RMF is used to figure out what level of risk a system owner is going to accept.
+- A system can be a organization, piece of software, or even a single feature within an application
+
+--------------------------
+##### When to use RMF
+- When one needs to protect sensitive information
+- Ex. Financial information, personal information, anything confidential
+
+##### 6 Step Process to Use RMF
+1. Categorize information systems
+2. Select security controls
+3. Implement security controls
+4. Assess security controls
+5. Authorize information systems
+6. Monitor security controls
+------------------------
+#### RMF Step 1: Categorize
+- Categorize terms of the CIA Triad Requirements
+- Ex. Application that is used to look at public information, the following categorization can be used:
+
+**Confidentiality:** LOW (public information)
+**Integrity:** MED (info needs to be accurate)
+**Availability:** LOW (not mission critical)
+
+- NIST 800-60 Can be used to categorize
+
+#### Step 2: Select Controls
+- Look at the NIST 800-53 Security & Privacy Controls 
+- Chose controls that are appropriate for the system.
+- Ex. Implement PCI DSS for system that processes credit card info.
+
+#### Step 3: Implement Security Controls
+- Implementation of controls can take a long time, require specialized skills, and be costly.
+- Ex. May have to build controls into an application such as account lockout.
+- Controls should not hinder functionality. 
+- NIST 800-53
+
+#### Step 4:  Assess Security Controls
+- Security Audit (can be a 3rd party) will make sure controls are implemented to the specified level. 
+
+#### Step 5: Authorize the System
+- Authorizing Official (AO) will sign off and accept the remaining risk within the system.
+- Ex. of AO: CISO, CIO, CTO, Program Manager, etc 
+
+#### Step 6: Monitor the Controls/System
+- Remediate new vulnerabilities discovered in the system.
+- Respond to new threats to the system.
+- AO must sign off on new changes to the system and make sure they do not increase risk. 
+- Overall: Make sure the level of risk does not increase within the system.
+------------------------
+#### NIST 800-53: Security & Privacy Controls
+- Set of security controls orgs can use to help their information systems
+- This publication covers how to make sure passwords are strong, regular checks for vulnerabilities, and how to respond to security incidents 
+
+##### Two Main Controls Families
+- **Access Control (AC)**
+- **Incident Response (IR)**
+
+##### Low, Moderate, & High Controls
+
+- **Low:** This control level is for systems that have minimal security requirements. These systems usually store low risk information.
+
+- **Moderate:** This control level is for systems that store information that is a bit more sensitive such as employee records or customer information. Requires more comprehensive security controls.
+
+- **High:** This control is for extremely sensitive information. This can include classified documents or medical records. Needs to have the most comprehensive security controls to protect the system from a wide range of threats. 
+
+##### Main Control Families
+- Access Control (AC)
+- Audit and Accountability (AU)
+- Configuration Management (CM)
+- Incident Response (IR)
+- Maintenance (MA)
+- Media Protection (MP)
+- Personnel Security (PS)
+- Risk Assessment (RA)
+
+#### When to Use NIST 800-53
+- Compliance with Federal Regulations
+- Design and Implementation of a New System
+- Cybersecurity Risk Assessments
+- Regular Security Audits
+- Enhancing Cybersecurity Posture in General
+
+---------------------------------
+
+#### NIST SP 800-61 Computer Security Incident Handling Guide
+- Outlines incident handling, an incident is any event that threatens the confidentiality, integrity, or availability of information systems.
+- Ex. Stolen laptop, malware, data breach, account compromise, fire, flooding, etc.
+
+##### Incident Response Lifecycle
+- Preparation
+- Detection & Analysis
+- Containment, Eradication & Recovery
+- Post-Incident Activity
+
+#### Incident Phase 1: Preparation (Create Incident Response Plan)
+- An IR plan is a set of procedures that guides an organization's response to a security incident.
+- It should include procedures for incident detection, analysis, containment, eradication, recovery, an post-incident activity.
+- It should include roles and responsibilities, communication channels, and methods for measuring the effectiveness of the plan.
+###### Establish Communication Channels
+- Internal Communication Channels
+- External Communication Channels
+- Emergency Notification Systems
+- Media Outlets
+
+###### Preparation (Continuous Improvement)
+- Exercise and Testing
+- Post-Incident Reviews
+- Metrics and Key Performance Indicators (KPIs)
+- Feedback and Surveys
+
+#### Incident Phase 2: Detection & Analysis
+- Finding Evidence of an Incident 
+- Ensuring the Incident Actually Occurred
+- Start the Communication Process
+
+#### Incident Phase 3: Containment, Eradication, & Recovery
+- Stopping the incident from getting worse (containment)
+- Removing the source of the problem (eradication)
+- Fixing the damage caused by the incident (recovery)
+- Making sure the incident does not happen again
+
+#### Incident Phase 4: Post-Incident Activity
+- 1. Reviewing what happened during the incident 
+- Documenting what was done to respond
+- Identifying areas where improvements can be made
+- Sharing information with others to help prevent similar incidents in the future
+- Updating your incident response plan as well as other plans
+- Reflect on lessons learned
+
+---------------------------
+#### NIST Cybersecurity Framework (NIST CSF)
+- Categorized checklist to reference to help secure organizations
+- 5 main areas
+1. Identify
+2. Protect
+3. Detect
+4. Respond
+5. Recover
+
+##### Ways to Use the NIST CSF
+1. Risk assessment
+2. Policy development
+3. Gap analysis
+4. Incident response planning
+5. Continuous improvement
+
+------------------
+#### CIS Controls
+- Center for Internet Security (CIS) is a non-profit org that helps other orgs with security.
+- Known for the 18 Critical Security Controls they developed and maintain.
