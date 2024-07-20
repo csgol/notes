@@ -35,10 +35,8 @@ categories:
 - GDPR establishes a set of rules for how personal data of individuals within the EU should be collected, processed, and stored.
 - GDPR applies to all orgs globally, as long as the org sores and processes personal data of EU citizens or residents.
 
-##### GDPR Checklist:
+#### GDPR Checklist:
 1. Lawful Basis and Transparency (Identify)
 2. Data Security
 3. Accountability and governance
 4. Privacy Rights
-
-
